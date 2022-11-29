@@ -1,0 +1,8 @@
+﻿@model Transaction
+
+<tr>
+    <td>@Model.TimeStamp.ToLongDateString() @Model.TimeStamp.ToLongTimeString()</td>
+    <td>@Model.Owner</td>
+    <td><i class="fa fa-euro" style="color: gold;"></i> @Model.Amount</td>
+    <td>@Model.Remarks</td>
+</tr>
